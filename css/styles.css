@@ -1,0 +1,172 @@
+/* tag selectors */
+h1 {
+  font-family: "Montserrat" sans-serif;
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat" sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+}
+h3 {
+  font-weight: bold;
+}
+
+p {
+  color: #afafaf;
+  margin: 0 2rem;
+}
+
+/* class selectors */
+.navbar {
+  padding: 0;
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 50%;
+  transform: rotate(15deg);
+  position: absolute;
+  right: 30%;
+}
+
+.features-icon {
+  color: #ff6c68;
+  font-size: 60px;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.title-div {
+  padding: 3% 12%;
+}
+
+/* id selectors */
+#title {
+  background-color: #ff4c68;
+  color: #ffffff;
+  padding-bottom: 50px;
+}
+
+#features {
+  margin: auto;
+  padding: 7% 10%;
+  text-align: center;
+  background-color: white;
+  position: relative;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ff6c68;
+  color: white;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px 20px 5px;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+/* Press */
+#press {
+  background-color: #ff6c68;
+  padding: 5% 15%;
+}
+
+.press-images {
+  width: 20%;
+  margin: 10px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* .pricing-button {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  width: 50%;
+} */
+
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  color: #fff;
+  font-family: "Montserrat" sans;
+  font-size: 3rem;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+/* footer */
+#footer {
+  padding: 7%;
+  text-align: center;
+  color: fafafa;
+}
+
+.social-icons {
+  margin: 20px 10px;
+  color: #1a1a1a;
+}
+
+.social-icons:hover {
+  color: #4f4f4f;
+  text-decoration: none;
+}
+
+/* media Query */
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0)
+  }
+
+  #title {
+    text-align: center;
+  }
+}
